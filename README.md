@@ -38,6 +38,21 @@ The dataset contains demographic and clinical attributes such as age, gender, hy
 
 ## Current Status
 
-* Repository initialized
-* Dataset selected and added
-* Project structure created
+Mid-semester objectives completed.  
+Project is ready for AutoML implementation, explainability analysis, and deployment in the next phase.
+
+## Mid-Semester Progress (Completed)
+
+The following milestones have been successfully completed as part of the mid-semester evaluation:
+
+- Dataset selection and justification (public healthcare stroke dataset)
+- Exploratory Data Analysis (EDA) using Python and Tableau
+- Handling missing values and data cleaning
+- Categorical feature encoding and feature scaling
+- Train–test split with stratification to handle class imbalance
+- Manual baseline machine learning model (Logistic Regression)
+- Model evaluation using Accuracy, Confusion Matrix, and ROC-AUC
+- Tableau dashboard creation for visual data exploration
+- Versioned storage of cleaned and ML-ready datasets
+
+The baseline model serves as a reference for comparison with AutoML models in the next phase of the project.
