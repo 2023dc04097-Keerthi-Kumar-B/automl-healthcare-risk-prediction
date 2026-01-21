@@ -56,3 +56,15 @@ The following milestones have been successfully completed as part of the mid-sem
 - Versioned storage of cleaned and ML-ready datasets
 
 The baseline model serves as a reference for comparison with AutoML models in the next phase of the project.
+
+## Mid-Sem & Review Enhancements
+
+The following enhancements were added after mid-semester evaluation based on reviewer feedback:
+
+- Introduced a derived clinical feature (`bmi_category`) using standard BMI thresholds to improve interpretability.
+- Implemented a comparative analysis using a Random Forest classifier alongside Logistic Regression.
+- Evaluated both models using consistent metrics including Accuracy, Precision, Recall, F1-score, and ROC-AUC.
+- Observed that Logistic Regression achieved comparable or better ROC-AUC, highlighting its suitability for healthcare risk prediction.
+
+These updates strengthen the experimental validation and will be discussed in detail in the final dissertation report.
+
