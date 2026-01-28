@@ -79,7 +79,6 @@ A Streamlit web application was developed to demonstrate model deployment. The a
 Logistic Regression was chosen for deployment due to its slightly better ROC–AUC, clear probability interpretation, and higher interpretability, while AutoML served as a validation framework.
 
 Run the app:
-pip install -r requirements.txt
-streamlit run app.py
+pip install -r requirements.txt, streamlit run app.py
 
 ⚠️ This application is intended for educational and screening purposes only.
