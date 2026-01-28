@@ -68,3 +68,18 @@ The following enhancements were added after mid-semester evaluation based on rev
 
 These updates strengthen the experimental validation and will be discussed in detail in the final dissertation report.
 
+## AutoML Implementation (PyCaret)
+
+AutoML was implemented using PyCaret (classification module) to automatically evaluate multiple machine learning models for stroke risk prediction. The pipeline included automated preprocessing, class imbalance handling, cross-validation, and model comparison based on ROC–AUC.
+Linear Discriminant Analysis (LDA) emerged as the top AutoML model. AutoML was primarily used for benchmarking and validating the manually developed Logistic Regression model.
+
+## Deployment & Usage (Streamlit)
+
+A Streamlit web application was developed to demonstrate model deployment. The application loads a trained Logistic Regression model and predicts stroke risk probability, categorizing users into Low, Moderate, or High Risk groups.
+Logistic Regression was chosen for deployment due to its slightly better ROC–AUC, clear probability interpretation, and higher interpretability, while AutoML served as a validation framework.
+
+Run the app:
+pip install -r requirements.txt
+streamlit run app.py
+
+⚠️ This application is intended for educational and screening purposes only.
